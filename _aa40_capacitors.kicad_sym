@@ -90,7 +90,7 @@
           (xy -0.381 -2.032)
           (xy -0.381 2.032)
         )
-        (stroke (width 0.2032) (type default))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
@@ -98,7 +98,7 @@
           (xy 0.381 -2.032)
           (xy 0.381 2.032)
         )
-        (stroke (width 0.2032) (type default))
+        (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline

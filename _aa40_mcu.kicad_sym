@@ -1,15 +1,15 @@
 (kicad_symbol_lib (version 20220914) (generator kicad_symbol_editor)
-  (symbol "STM32F030K6Tx" (in_bom yes) (on_board yes)
+  (symbol "STM32F03xK6Tx" (in_bom yes) (on_board yes)
     (property "Reference" "MCU" (at 0 24.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "STM32F030K6Tx" (at 0 3.81 90)
+    (property "Value" "STM32F03xK6Tx" (at 0 3.81 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm" (at 20.32 -26.67 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f030k6.pdf" (at 0 -27.94 0)
+    (property "Datasheet" "" (at 0 -27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "Arm Cortex-M0 STM32F0 STM32F0x0 Value Line" (at 0 0 0)
@@ -21,7 +21,7 @@
     (property "ki_fp_filters" "LQFP*7x7mm*P0.8mm*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "STM32F030K6Tx_1_1"
+    (symbol "STM32F03xK6Tx_1_1"
       (polyline
         (pts
           (xy -7.62 -25.4)
