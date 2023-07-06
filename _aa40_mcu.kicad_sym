@@ -9,7 +9,7 @@
     (property "Footprint" "Package_QFP:LQFP-32_7x7mm_P0.8mm" (at 20.32 -26.67 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Datasheet" "" (at 0 -27.94 0)
+    (property "Datasheet" "file:///E:/004SP/PDF/stm32f031k6.pdf" (at 0 -27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_keywords" "Arm Cortex-M0 STM32F0 STM32F0x0 Value Line" (at 0 0 0)
