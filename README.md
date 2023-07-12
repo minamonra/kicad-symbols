@@ -1,11 +1,7 @@
-_aa40_mcu.kicad_sym:
+My symbols library for KiCad 7. Starting 07.2023.
 
-Mcu's:
+_aa40_mcu.kicad_sym: Mcu's.
 
 STM32F030K6Tx
 
-_aa40_resistors.kicad_sym:
-
-R_RES, Resistors
-
-	
+ATMEGA328
