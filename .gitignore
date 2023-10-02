@@ -1,7 +1,9 @@
 # 
 *.bak
-_aa40_misc.bak
-_aa40_misc.kicad_sym
+#_aa40_misc.bak
+#_aa40_misc.kicad_sym
+_aa40_temp.bak
+_aa40_temp.kicad_sym
 # ignore all logs
 *.log
 **/*.log
