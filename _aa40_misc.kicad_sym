@@ -419,7 +419,7 @@
     )
   )
   (symbol "CONN01PIN" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (at 0 2.54 0)
+    (property "Reference" "J" (at -1.27 2.54 0)
       (effects (font (size 1.016 1.016)))
     )
     (property "Value" "CONN01PIN" (at 0 -2.54 0)
@@ -464,7 +464,7 @@
     )
     (symbol "CONN01PIN_1_1"
       (pin passive line (at -5.08 0 0) (length 2.54)
-        (name "1" (effects (font (size 1.016 1.016))))
+        (name "~" (effects (font (size 1.016 1.016))))
         (number "1" (effects (font (size 1.016 1.016))))
       )
     )
