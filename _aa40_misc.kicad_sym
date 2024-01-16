@@ -469,11 +469,11 @@
       )
     )
   )
-  (symbol "CONN02PIN" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+  (symbol "CONN2PIN" (pin_numbers hide) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
     (property "Reference" "J" (at 0 2.54 0)
       (effects (font (size 1.016 1.016)))
     )
-    (property "Value" "CONN01PIN" (at 0 -5.715 0)
+    (property "Value" "CONN2PIN" (at 0 -5.715 0)
       (effects (font (size 0.762 0.762)) hide)
     )
     (property "Footprint" "" (at 0 0 0)
@@ -491,7 +491,7 @@
     (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "CONN02PIN_0_1"
+    (symbol "CONN2PIN_0_1"
       (rectangle (start -2.54 1.27) (end 1.016 -3.81)
         (stroke (width 0) (type default))
         (fill (type none))
@@ -521,7 +521,7 @@
         (fill (type none))
       )
     )
-    (symbol "CONN02PIN_1_1"
+    (symbol "CONN2PIN_1_1"
       (pin passive line (at -5.08 0 0) (length 2.54)
         (name "1" (effects (font (size 1.016 1.016))))
         (number "1" (effects (font (size 1.016 1.016))))
