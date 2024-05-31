@@ -2801,7 +2801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F103C_8-B_Tx"
+		(property "Value" "STM32F103C8T6"
 			(at 0.254 -9.144 90)
 			(effects
 				(font
@@ -3002,7 +3002,7 @@
 					(type none)
 				)
 			)
-			(text "STM32F103C_8-B_Tx"
+			(text "STM32F103C8T6"
 				(at 0 1.27 900)
 				(effects
 					(font
