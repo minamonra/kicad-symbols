@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Description" "Generic connector"
-			(at 0 0 0)
+			(at 0.508 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,8 +1937,19 @@
 		)
 		(symbol "CONN2PIN_0_1"
 			(rectangle
+				(start -2.54 -1.27)
+				(end 2.54 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
 				(start -2.54 1.27)
-				(end 1.016 -3.81)
+				(end 2.54 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -1961,7 +1972,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy 1.016 -1.27)
+					(xy 2.032 -1.27) (xy 2.032 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -1973,7 +1984,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 1.27) (xy 0.508 -3.81)
+					(xy 2.032 1.27) (xy 2.032 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1988,7 +1999,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name "~"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2006,7 +2017,7 @@
 			(pin passive line
 				(at -5.08 -2.54 0)
 				(length 2.54)
-				(name "2"
+				(name "~"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5916,6 +5927,314 @@
 				(at 5.08 0 180)
 				(length 2.54)
 				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SRX882-1"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -0.254 8.382 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "SRX882-1"
+			(at -0.254 -6.858 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_aModules:SRX882"
+			(at -22.86 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -22.86 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Приемник 433МГц [ASK] v2"
+			(at -0.254 -6.858 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SRX882-1_0_1"
+			(polyline
+				(pts
+					(xy -7.62 -1.905) (xy -2.54 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 1.905) (xy -2.54 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.905) (xy 7.62 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SRX882-1_1_1"
+			(polyline
+				(pts
+					(xy -7.62 -5.715) (xy 7.62 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 5.715) (xy -7.62 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 5.715) (xy 7.62 5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 5.715) (xy -2.54 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 5.715) (xy 2.54 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.715) (xy 7.62 -5.715)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "SRX882"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(italic yes)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "ANT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "DATA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -10.16 3.81 0)
+				(length 2.54) hide
+				(name "ANT"
 					(effects
 						(font
 							(size 1.016 1.016)
