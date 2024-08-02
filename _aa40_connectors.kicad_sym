@@ -2,6 +2,150 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
+	(symbol "Conn_2pin01"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -0.254 3.048 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Conn_2pin01"
+			(at 0.254 -4.826 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0.254 -16.256 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_2pin01_0_1"
+			(rectangle
+				(start -2.54 -1.27)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.54 1.27)
+				(end 3.81 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.048 1.27) (xy 3.048 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Conn_2pin01_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Conn_485_01"
 		(pin_names
 			(offset 1.016)
@@ -108,7 +252,7 @@
 			)
 		)
 		(symbol "Conn_485_01_1_1"
-			(pin power_in line
+			(pin bidirectional line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "A"
@@ -126,7 +270,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "B"
@@ -137,6 +281,439 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn_4pin01"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -3.556 1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Conn_4pin01"
+			(at -3.556 -11.176 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0.254 -16.256 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_4pin01_0_1"
+			(rectangle
+				(start -6.35 -7.62)
+				(end 0 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -5.08)
+				(end 0 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 0)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0) (xy -0.762 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Conn_4pin01_1_1"
+			(pin passive line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -6.35 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -8.89 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Conn_5pin01"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -3.556 1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Conn_5pin01"
+			(at -3.556 -13.716 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at -3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0.254 -16.256 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Conn_5pin01_0_1"
+			(rectangle
+				(start -6.35 -10.16)
+				(end 0 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -7.62)
+				(end 0 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -5.08)
+				(end 0 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 0)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 0) (xy -0.762 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Conn_5pin01_1_1"
+			(pin passive line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -3.81 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -6.35 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -8.89 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -11.43 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -436,7 +1013,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin output line
 				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "CLK"
@@ -454,7 +1031,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -5.08 -5.08 0)
 				(length 2.54)
 				(name "VDD"
@@ -472,7 +1049,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -5.08 -7.62 0)
 				(length 2.54)
 				(name "GND"
@@ -620,7 +1197,7 @@
 			)
 		)
 		(symbol "Conn_stm_prog02_1_1"
-			(pin bidirectional line
+			(pin output line
 				(at -5.08 0 0)
 				(length 2.54)
 				(name "CLK"
@@ -656,7 +1233,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -5.08 -5.08 0)
 				(length 2.54)
 				(name "VDD"
@@ -674,7 +1251,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -5.08 -7.62 0)
 				(length 2.54)
 				(name "GND"
@@ -858,7 +1435,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -5.08 -5.08 0)
 				(length 2.54)
 				(name "VDD"
@@ -876,7 +1453,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -5.08 -7.62 0)
 				(length 2.54)
 				(name "GND"
@@ -896,7 +1473,7 @@
 			)
 		)
 	)
-	(symbol "P10led_mono16p"
+	(symbol "Conn_usart02"
 		(pin_names
 			(offset 1.016)
 		)
@@ -904,15 +1481,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at -1.27 2.54 0)
+			(at 0.508 3.81 0)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Value" "P10led_mono16p"
-			(at 0.254 -41.91 0)
+		(property "Value" "Conn_usart02"
+			(at 0.254 -10.16 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -920,7 +1497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -965,139 +1542,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "P10led_mono16p_0_1"
-			(rectangle
-				(start -2.54 -36.83)
-				(end 3.81 -39.37)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -34.29)
-				(end 3.81 -36.83)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -31.75)
-				(end 3.81 -34.29)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -29.21)
-				(end 3.81 -31.75)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -26.67)
-				(end 3.81 -29.21)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -24.13)
-				(end 3.81 -26.67)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -21.59)
-				(end 3.81 -24.13)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -19.05)
-				(end 3.81 -21.59)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -16.51)
-				(end 3.81 -19.05)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -13.97)
-				(end 3.81 -16.51)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -11.43)
-				(end 3.81 -13.97)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 -8.89)
-				(end 3.81 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
+		(symbol "Conn_usart02_0_1"
 			(rectangle
 				(start -2.54 -6.35)
 				(end 3.81 -8.89)
@@ -1144,7 +1589,341 @@
 			)
 			(polyline
 				(pts
-					(xy -3.048 -12.7) (xy -2.54 -12.7)
+					(xy 3.175 1.27) (xy 3.175 -8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Conn_usart02_1_1"
+			(pin bidirectional line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "TX"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -5.08 -2.54 0)
+				(length 2.54)
+				(name "RX"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at -5.08 -7.62 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "P10led_mono16p"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -5.08 1.27 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "P10led_mono16p"
+			(at -6.35 -42.418 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical"
+			(at 1.524 -20.574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -3.81 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -3.556 -17.526 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "P10led_mono16p_0_1"
+			(rectangle
+				(start -6.35 -38.1)
+				(end 0 -40.64)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -35.56)
+				(end 0 -38.1)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -33.02)
+				(end 0 -35.56)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -30.48)
+				(end 0 -33.02)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -27.94)
+				(end 0 -30.48)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -25.4)
+				(end 0 -27.94)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -22.86)
+				(end 0 -25.4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -20.32)
+				(end 0 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -17.78)
+				(end 0 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -15.24)
+				(end 0 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -12.7)
+				(end 0 -15.24)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -10.16)
+				(end 0 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -7.62)
+				(end 0 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -5.08)
+				(end 0 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 -2.54)
+				(end 0 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -6.35 0)
+				(end 0 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.858 -13.97) (xy -6.35 -13.97)
 				)
 				(stroke
 					(width 0)
@@ -1156,7 +1935,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.048 -10.16) (xy -2.54 -10.16)
+					(xy -6.858 -11.43) (xy -6.35 -11.43)
 				)
 				(stroke
 					(width 0)
@@ -1168,7 +1947,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.048 -7.62) (xy -2.54 -7.62)
+					(xy -6.858 -8.89) (xy -6.35 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -1180,7 +1959,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.048 -5.08) (xy -2.54 -5.08)
+					(xy -6.858 -6.35) (xy -6.35 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -1192,7 +1971,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.048 -2.54) (xy -2.54 -2.54)
+					(xy -6.858 -3.81) (xy -6.35 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -1204,7 +1983,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.048 0) (xy -2.54 0)
+					(xy -6.858 -1.27) (xy -6.35 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -1216,7 +1995,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 1.27) (xy 3.175 -39.37)
+					(xy -0.635 0) (xy -0.635 -40.64)
 				)
 				(stroke
 					(width 0)
@@ -1228,8 +2007,8 @@
 			)
 		)
 		(symbol "P10led_mono16p_1_1"
-			(pin bidirectional line
-				(at -5.08 0 0)
+			(pin input line
+				(at -8.89 -1.27 0)
 				(length 2.54)
 				(name "nOE"
 					(effects
@@ -1246,8 +2025,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -22.86 0)
+			(pin input line
+				(at -8.89 -24.13 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -1264,8 +2043,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -25.4 0)
+			(pin power_in line
+				(at -8.89 -26.67 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1283,7 +2062,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 -27.94 0)
+				(at -8.89 -29.21 0)
 				(length 2.54)
 				(name "DATA"
 					(effects
@@ -1300,8 +2079,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -30.48 0)
+			(pin power_in line
+				(at -8.89 -31.75 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1318,9 +2097,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -33.02 0)
-				(length 2.54)
+			(pin no_connect line
+				(at -8.89 -34.29 0)
+				(length 2.54) hide
 				(name "~"
 					(effects
 						(font
@@ -1336,8 +2115,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -35.56 0)
+			(pin power_in line
+				(at -8.89 -36.83 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1354,9 +2133,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -38.1 0)
-				(length 2.54)
+			(pin no_connect line
+				(at -8.89 -39.37 0)
+				(length 2.54) hide
 				(name "~"
 					(effects
 						(font
@@ -1372,8 +2151,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -2.54 0)
+			(pin input line
+				(at -8.89 -3.81 0)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -1390,8 +2169,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -5.08 0)
+			(pin power_in line
+				(at -8.89 -6.35 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1408,8 +2187,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -7.62 0)
+			(pin input line
+				(at -8.89 -8.89 0)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -1426,8 +2205,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -10.16 0)
+			(pin power_in line
+				(at -8.89 -11.43 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1444,9 +2223,9 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -12.7 0)
-				(length 2.54)
+			(pin no_connect line
+				(at -8.89 -13.97 0)
+				(length 2.54) hide
 				(name "~"
 					(effects
 						(font
@@ -1462,8 +2241,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -15.24 0)
+			(pin power_in line
+				(at -8.89 -16.51 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1480,8 +2259,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -17.78 0)
+			(pin input line
+				(at -8.89 -19.05 0)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -1498,8 +2277,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -5.08 -20.32 0)
+			(pin power_in line
+				(at -8.89 -21.59 0)
 				(length 2.54)
 				(name "GND"
 					(effects
