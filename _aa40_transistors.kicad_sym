@@ -9889,24 +9889,6 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at 1.27 5.08 270)
-				(length 2.286)
-				(name "D"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at -5.08 -1.27 0)
 				(length 2.286)
@@ -9917,7 +9899,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9929,6 +9911,24 @@
 				(at 1.27 -5.08 90)
 				(length 2.286)
 				(name "S"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 1.27 5.08 270)
+				(length 2.286)
+				(name "D"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -10816,9 +10816,9 @@
 				)
 			)
 			(pin input line
-				(at 1.27 5.08 270)
+				(at 1.27 -5.08 90)
 				(length 2.286)
-				(name "D"
+				(name "S"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -10834,9 +10834,9 @@
 				)
 			)
 			(pin input line
-				(at 1.27 -5.08 90)
+				(at 1.27 5.08 270)
 				(length 2.286)
-				(name "S"
+				(name "D"
 					(effects
 						(font
 							(size 1.016 1.016)
