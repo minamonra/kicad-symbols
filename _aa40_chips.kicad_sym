@@ -12822,6 +12822,337 @@
 			)
 		)
 	)
+	(symbol "TL081-RSB"
+		(pin_names
+			(offset 0.127)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.62 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TL081-RSB"
+			(at 1.27 11.43 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifier, DIP-8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "single opamp"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TSSOP*3x3mm*P0.65mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TL081-RSB_0_1"
+			(polyline
+				(pts
+					(xy -7.62 -5.08) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 2.794) (xy -2.54 2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -5.08) (xy 7.62 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 5.08) (xy 7.62 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 4.318) (xy -0.762 1.016) (xy 1.27 2.794) (xy -0.762 4.318)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TL081-RSB_1_1"
+			(polyline
+				(pts
+					(xy -7.62 -10.16) (xy 7.62 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 10.16) (xy -7.62 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 10.16) (xy 7.62 10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 10.16) (xy -2.54 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 10.16) (xy 2.54 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 10.16) (xy 7.62 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -10.16 7.62 0)
+				(length 2.54)
+				(name "Uin-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "Uin+"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -7.62 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(alternate "ADC_IN9" bidirectional line)
+				(alternate "TIM14_CH1" bidirectional line)
+				(alternate "TIM1_CH3N" bidirectional line)
+				(alternate "TIM3_CH4" bidirectional line)
+			)
+			(pin output line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -1.27 -16.51 180)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TL082"
 		(pin_names
 			(offset 0.381)
@@ -14649,6 +14980,8 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(italic yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -15275,6 +15608,8 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(italic yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -15817,6 +16152,8 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(italic yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -17439,6 +17776,8 @@
 			(effects
 				(font
 					(size 1.016 1.016)
+					(italic yes)
+					(color 72 0 0 1)
 				)
 			)
 		)
@@ -18009,7 +18348,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 10.16 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -18017,7 +18356,7 @@
 			)
 		)
 		(property "Value" "К553УД2"
-			(at 0 10.16 0)
+			(at 0 11.43 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -18026,7 +18365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -21.59 -11.43 0)
+			(at -21.59 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18037,7 +18376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1.27 -13.97 0)
+			(at 1.27 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18046,7 +18385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18066,7 +18405,7 @@
 		(symbol "К553УД2_0_1"
 			(polyline
 				(pts
-					(xy -7.62 -6.35) (xy -2.54 -6.35)
+					(xy -7.62 -5.08) (xy -2.54 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -18078,7 +18417,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -1.27) (xy -2.54 -1.27)
+					(xy -7.62 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -18090,7 +18429,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 3.81) (xy -2.54 3.81)
+					(xy -7.62 5.08) (xy -2.54 5.08)
 				)
 				(stroke
 					(width 0)
@@ -18102,7 +18441,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -6.35) (xy 7.62 -6.35)
+					(xy 2.54 -5.08) (xy 7.62 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -18114,7 +18453,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 7.62 -1.27)
+					(xy 2.54 0) (xy 7.62 0)
 				)
 				(stroke
 					(width 0)
@@ -18126,7 +18465,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy 7.62 3.81)
+					(xy 2.54 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0)
@@ -18140,7 +18479,7 @@
 		(symbol "К553УД2_1_1"
 			(polyline
 				(pts
-					(xy -7.62 -11.43) (xy 7.62 -11.43)
+					(xy -7.62 -10.16) (xy 7.62 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -18152,7 +18491,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 8.89) (xy -7.62 -11.43)
+					(xy -7.62 10.16) (xy -7.62 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -18164,7 +18503,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 8.89) (xy 7.62 8.89)
+					(xy -7.62 10.16) (xy 7.62 10.16)
 				)
 				(stroke
 					(width 0)
@@ -18176,7 +18515,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 8.89) (xy -2.54 -11.43)
+					(xy -2.54 10.16) (xy -2.54 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -18188,7 +18527,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 8.89) (xy 2.54 -11.43)
+					(xy 2.54 10.16) (xy 2.54 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -18200,7 +18539,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 8.89) (xy 7.62 -11.43)
+					(xy 7.62 10.16) (xy 7.62 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -18211,7 +18550,7 @@
 				)
 			)
 			(text "К553УД2"
-				(at 0 0 900)
+				(at 0 -0.254 900)
 				(effects
 					(font
 						(size 1.016 1.016)
@@ -18238,7 +18577,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -18256,7 +18595,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 6.35 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "U1"
 					(effects
@@ -18274,7 +18613,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -3.81 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "FC"
 					(effects
@@ -18346,7 +18685,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -8.89 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -18364,7 +18703,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 1.27 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "Uin-"
 					(effects
@@ -18382,7 +18721,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -3.81 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "Uin+"
 					(effects
@@ -18400,7 +18739,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -8.89 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "U2"
 					(effects
@@ -18458,9 +18797,433 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 6.35 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "КР1533ЛИ2"
+		(pin_names
+			(offset 0.381)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 9.906 16.002 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "КР1533ЛИ2"
+			(at 9.906 13.462 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm"
+			(at 0 -19.05 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "КР1533ЛИ2_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy -7.62 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -7.62 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 5.08) (xy -7.62 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 10.16) (xy -2.54 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 10.16) (xy 2.54 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 2.54 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "КР1533ЛИ2_1_1"
+			(rectangle
+				(start -7.62 10.16)
+				(end 7.62 -10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "КР1533ЛИ2"
+				(at 0 0 900)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(italic yes)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 8.89 0)
+				(length 2.54)
+				(name "&"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -6.35 0)
+				(length 2.54)
+				(name "&"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -8.89 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 6.35 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 7.62 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "&"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "&"
 					(effects
 						(font
 							(size 1.016 1.016)

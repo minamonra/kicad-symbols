@@ -8495,7 +8495,7 @@
 						)
 					)
 				)
-				(number "A"
+				(number "A1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8509,14 +8509,14 @@
 				(name "~"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "B"
+				(number "A2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
