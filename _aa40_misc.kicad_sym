@@ -660,9 +660,9 @@
 		)
 		(symbol "BAT_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at 3.81 0 180)
 				(length 2.54)
-				(name "-"
+				(name "+"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -678,9 +678,9 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at -3.81 0 0)
 				(length 2.54)
-				(name "+"
+				(name "-"
 					(effects
 						(font
 							(size 1.016 1.016)
