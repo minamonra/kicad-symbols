@@ -11262,24 +11262,6 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -10.16 3.81 0)
-				(length 2.54) hide
-				(name "ANT"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 		)
 	)
 	(symbol "STX882-1"
