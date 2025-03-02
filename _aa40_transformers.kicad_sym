@@ -973,6 +973,362 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "GDTv04"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at 0 13.462 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "GDTv04"
+			(at 0.254 13.462 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_aTransformers:RM10"
+			(at 0.508 13.462 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 -3.81 90)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Трансформатор управления затворами"
+			(at 0.508 13.462 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "gate drive transformer"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GDTv04_1_1"
+			(arc
+				(start -2.54 6.35)
+				(mid -1.2755 5.08)
+				(end -2.54 3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 3.81)
+				(mid -1.2755 2.54)
+				(end -2.54 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.54 1.27)
+				(mid -1.2755 0)
+				(end -2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 -1.27)
+				(mid -1.27 -2.54)
+				(end -2.5345 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 -3.81)
+				(mid -1.27 -5.08)
+				(end -2.5345 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -8.89) (xy 0 11.43)
+				)
+				(stroke
+					(width 0.2032)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 5.08)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 2.5345 -6.35)
+				(mid 1.27 -5.08)
+				(end 2.5345 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -5.08)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 2.5345 -8.89)
+				(mid 1.27 -7.62)
+				(end 2.5345 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.5345 -11.43)
+				(mid 1.27 -10.16)
+				(end 2.5345 -8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 8.89)
+				(mid 1.2755 10.16)
+				(end 2.54 11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 6.35)
+				(mid 1.2755 7.62)
+				(end 2.54 8.89)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 3.81)
+				(mid 1.2755 5.08)
+				(end 2.54 6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 6.35 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -6.35 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 11.43 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 3.81 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -3.81 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -11.43 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "HB13006"
 		(pin_names
 			(offset 0)
@@ -1406,7 +1762,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "T"
-			(at 0 8.255 0)
+			(at 0 10.922 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1414,7 +1770,7 @@
 			)
 		)
 		(property "Value" "HB13006-SFLP"
-			(at 0.254 -26.162 0)
+			(at 0.254 10.922 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1422,8 +1778,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "_aTransformers:Transformer_HB1306"
-			(at 0 -27.432 0)
+		(property "Footprint" "_aTransformers:ETD39x20x13"
+			(at 0.508 10.922 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1441,10 +1797,10 @@
 			)
 		)
 		(property "Description" "Трансформатор"
-			(at 0.254 -29.21 0)
+			(at 0.508 10.922 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(hide yes)
 			)
@@ -1460,9 +1816,9 @@
 		)
 		(symbol "HB13006-SFLP_1_1"
 			(arc
-				(start -2.54 1.27)
-				(mid -1.2755 0)
-				(end -2.54 -1.27)
+				(start -2.54 8.89)
+				(mid -1.2755 7.62)
+				(end -2.54 6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -1472,9 +1828,9 @@
 				)
 			)
 			(arc
-				(start -2.54 -1.27)
-				(mid -1.2755 -2.54)
-				(end -2.54 -3.81)
+				(start -2.54 6.35)
+				(mid -1.2755 5.08)
+				(end -2.54 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -1484,9 +1840,33 @@
 				)
 			)
 			(arc
-				(start -2.54 -3.81)
-				(mid -1.2755 -5.08)
-				(end -2.54 -6.35)
+				(start -2.54 3.81)
+				(mid -1.2755 2.54)
+				(end -2.54 1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 1.27)
+				(mid -1.27 0)
+				(end -2.5345 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 -1.27)
+				(mid -1.27 -2.54)
+				(end -2.5345 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -1508,21 +1888,9 @@
 				)
 			)
 			(arc
-				(start -2.5345 -11.43)
-				(mid -1.27 -12.7)
-				(end -2.5345 -13.97)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start -2.5345 -13.97)
-				(mid -1.27 -15.24)
-				(end -2.5345 -16.51)
+				(start -2.5345 -8.89)
+				(mid -1.27 -10.16)
+				(end -2.5345 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -1533,7 +1901,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -17.78) (xy 0 1.27)
+					(xy 0 -13.97) (xy 0 8.89)
 				)
 				(stroke
 					(width 0.2032)
@@ -1544,7 +1912,7 @@
 				)
 			)
 			(circle
-				(center 2.54 0)
+				(center 2.54 7.62)
 				(radius 0.3592)
 				(stroke
 					(width 0)
@@ -1555,9 +1923,9 @@
 				)
 			)
 			(arc
-				(start 2.5345 -11.43)
-				(mid 1.27 -10.16)
-				(end 2.5345 -8.89)
+				(start 2.5345 -3.81)
+				(mid 1.27 -2.54)
+				(end 2.5345 -1.27)
 				(stroke
 					(width 0)
 					(type default)
@@ -1567,7 +1935,7 @@
 				)
 			)
 			(circle
-				(center 2.54 -10.16)
+				(center 2.54 -2.54)
 				(radius 0.3592)
 				(stroke
 					(width 0)
@@ -1578,9 +1946,9 @@
 				)
 			)
 			(arc
-				(start 2.5345 -13.97)
-				(mid 1.27 -12.7)
-				(end 2.5345 -11.43)
+				(start 2.5345 -6.35)
+				(mid 1.27 -5.08)
+				(end 2.5345 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -1590,9 +1958,9 @@
 				)
 			)
 			(arc
-				(start 2.5345 -16.51)
-				(mid 1.27 -15.24)
-				(end 2.5345 -13.97)
+				(start 2.5345 -8.89)
+				(mid 1.27 -7.62)
+				(end 2.5345 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -1602,9 +1970,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -1.27)
-				(mid 1.2755 0)
-				(end 2.54 1.27)
+				(start 2.54 6.35)
+				(mid 1.2755 7.62)
+				(end 2.54 8.89)
 				(stroke
 					(width 0)
 					(type default)
@@ -1614,9 +1982,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -3.81)
-				(mid 1.2755 -2.54)
-				(end 2.54 -1.27)
+				(start 2.54 3.81)
+				(mid 1.2755 5.08)
+				(end 2.54 6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -1626,9 +1994,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -6.35)
-				(mid 1.2755 -5.08)
-				(end 2.54 -3.81)
+				(start 2.54 1.27)
+				(mid 1.2755 2.54)
+				(end 2.54 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -1638,7 +2006,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 1.27 0)
+				(at -5.08 8.89 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1656,8 +2024,28 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -8.89 0)
+				(at -5.08 8.89 0)
 				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 8.89 0)
+				(length 2.54)
+				(hide yes)
 				(name "~"
 					(effects
 						(font
@@ -1674,7 +2062,63 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -11.43 0)
+				(at -5.08 -3.81 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -3.81 0)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -3.81 0)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -6.35 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1692,7 +2136,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -16.51 0)
+				(at -5.08 -11.43 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1710,7 +2154,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -13.97 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1719,7 +2163,25 @@
 						)
 					)
 				)
-				(number "2"
+				(number "0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 8.89 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "16"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1737,7 +2199,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "13"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1746,7 +2208,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -6.35 180)
+				(at 5.08 -1.27 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1755,7 +2217,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1774,24 +2236,6 @@
 					)
 				)
 				(number "9"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -16.51 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4829,6 +5273,249 @@
 			)
 			(pin passive line
 				(at 5.08 -8.89 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TT2"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "T"
+			(at -0.508 6.604 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TT2"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_aTransformers:TT03"
+			(at 0 0 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 10.16 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TT2_0_1"
+			(arc
+				(start -2.54 1.27)
+				(mid -1.2755 0)
+				(end -2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "TT2_1_1"
+			(polyline
+				(pts
+					(xy 0 5.08) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0.2032)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 3.81)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 2.5345 -2.54)
+				(mid 1.27 -1.27)
+				(end 2.5345 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -1.27)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 2.5345 -5.08)
+				(mid 1.27 -3.81)
+				(end 2.5345 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 2.54)
+				(mid 1.2755 3.81)
+				(end 2.54 5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.54 0)
+				(mid 1.2755 1.27)
+				(end 2.54 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 1.27 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -1.27 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 5.08 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -5.08 180)
 				(length 2.54)
 				(name "~"
 					(effects
