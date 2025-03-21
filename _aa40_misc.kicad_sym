@@ -6195,11 +6195,12 @@
 			)
 		)
 		(property "Value" "ConnModule_SG3525"
-			(at 0 -23.622 0)
+			(at 0 -24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6248,54 +6249,6 @@
 			)
 		)
 		(symbol "ConnModule_SG3525_0_1"
-			(polyline
-				(pts
-					(xy -0.508 11.43) (xy 0 11.43)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 8.89) (xy 0 8.89)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 6.35) (xy 0 6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.508 3.81) (xy 0 3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start 0 12.7)
 				(end 7.62 10.16)
@@ -6428,9 +6381,31 @@
 					(type none)
 				)
 			)
+			(rectangle
+				(start 0 -17.78)
+				(end 7.62 -20.32)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0 -20.32)
+				(end 7.62 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy 6.35 12.7) (xy 6.35 -17.78)
+					(xy 6.35 12.7) (xy 6.35 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -6452,7 +6427,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "13"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6470,7 +6445,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6488,7 +6463,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "11"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6506,7 +6481,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6524,7 +6499,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6542,7 +6517,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6560,7 +6535,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "14"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6571,14 +6546,14 @@
 			(pin bidirectional line
 				(at -2.54 -6.35 0)
 				(length 2.54)
-				(name "ON"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "7"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6589,14 +6564,14 @@
 			(pin bidirectional line
 				(at -2.54 -8.89 0)
 				(length 2.54)
-				(name "ONFG"
+				(name "ON"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
+				(number "6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6607,25 +6582,7 @@
 			(pin bidirectional line
 				(at -2.54 -11.43 0)
 				(length 2.54)
-				(name "ONFP"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -13.97 0)
-				(length 2.54)
-				(name "VO-"
+				(name "ONFG"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6641,7 +6598,61 @@
 				)
 			)
 			(pin bidirectional line
+				(at -2.54 -13.97 0)
+				(length 2.54)
+				(name "ONFP"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at -2.54 -16.51 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -19.05 0)
+				(length 2.54)
+				(name "VO-"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -2.54 -21.59 0)
 				(length 2.54)
 				(name "VO+"
 					(effects
@@ -6650,7 +6661,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
