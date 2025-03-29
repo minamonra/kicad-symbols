@@ -3011,9 +3011,9 @@
 				)
 			)
 			(arc
-				(start -2.5345 -6.35)
-				(mid -1.27 -7.62)
-				(end -2.5345 -8.89)
+				(start -2.5345 -3.81)
+				(mid -1.27 -5.08)
+				(end -2.5345 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -3026,6 +3026,18 @@
 				(start -2.5345 -8.89)
 				(mid -1.27 -10.16)
 				(end -2.5345 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.5345 -11.43)
+				(mid -1.27 -12.7)
+				(end -2.5345 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -3197,7 +3209,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -3.81 0)
+				(at -5.08 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "~"
@@ -3216,7 +3228,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -3.81 0)
+				(at -5.08 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "~"
@@ -3235,7 +3247,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -3.81 0)
+				(at -5.08 -6.35 0)
 				(length 2.54)
 				(hide yes)
 				(name "~"
@@ -3254,7 +3266,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -3.81 0)
+				(at -5.08 -6.35 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -3272,7 +3284,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -6.35 0)
+				(at -5.08 -8.89 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -3290,7 +3302,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -11.43 0)
+				(at -5.08 -13.97 0)
 				(length 2.54)
 				(name "~"
 					(effects
