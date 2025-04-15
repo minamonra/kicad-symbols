@@ -3883,7 +3883,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "IR1210"
+	(symbol "IR2110"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3949,7 +3949,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "IR1210_1_1"
+		(symbol "IR2110_1_1"
 			(polyline
 				(pts
 					(xy -7.62 7.62) (xy -7.62 -8.89)
@@ -4257,7 +4257,7 @@
 		(symbol "IR2113S_0_1"
 			(polyline
 				(pts
-					(xy -7.62 -6.35) (xy -2.54 -6.35)
+					(xy -7.62 -4.318) (xy -2.54 -4.318)
 				)
 				(stroke
 					(width 0)
@@ -4293,7 +4293,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -6.35) (xy 7.62 -6.35)
+					(xy 2.54 -4.318) (xy 7.62 -4.318)
 				)
 				(stroke
 					(width 0)
@@ -4317,7 +4317,25 @@
 				)
 			)
 			(pin input line
-				(at -10.16 7.62 0)
+				(at -10.16 10.16 0)
+				(length 2.54)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "Hin"
 					(effects
@@ -4353,7 +4371,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "SD"
 					(effects
@@ -4371,7 +4389,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -8.89 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "Vdd"
 					(effects
@@ -4389,7 +4407,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -12.7 0)
+				(at -10.16 -11.43 0)
 				(length 2.54)
 				(name "Vss"
 					(effects
@@ -4443,7 +4461,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 2.54 180)
+				(at 10.16 -1.27 180)
 				(length 2.54)
 				(name "Vs"
 					(effects
@@ -4461,7 +4479,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -5.08 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "LO"
 					(effects
@@ -4479,25 +4497,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -8.89 180)
-				(length 2.54)
-				(name "Vcc"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -12.7 180)
+				(at 10.16 -11.43 180)
 				(length 2.54)
 				(name "COM"
 					(effects
@@ -15430,7 +15430,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -7.62) (xy 7.62 -7.62)
+					(xy 2.54 -4.445) (xy 7.62 -4.445)
 				)
 				(stroke
 					(width 0)
@@ -15715,7 +15715,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -10.16 180)
+				(at 10.16 -8.89 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
