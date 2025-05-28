@@ -7887,6 +7887,17 @@
 					(type none)
 				)
 			)
+			(circle
+				(center -2.54 3.81)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(polyline
 				(pts
 					(xy 0 4.445) (xy 0 3.175)
@@ -7945,6 +7956,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(circle
+				(center 2.54 -3.81)
+				(radius 0.3592)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(arc
@@ -8023,7 +8045,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -8059,7 +8081,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.016 1.016)
