@@ -2037,7 +2037,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "1"
+				(name "~"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2128,21 +2128,9 @@
 			)
 		)
 		(symbol "CONN1PIN-Round_0_1"
-			(polyline
-				(pts
-					(xy -3.048 0) (xy -2.032 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(circle
-				(center -0.762 0)
-				(radius 1.27)
+				(center 0.508 0)
+				(radius 0.508)
 				(stroke
 					(width 0)
 					(type default)
@@ -2154,9 +2142,9 @@
 		)
 		(symbol "CONN1PIN-Round_1_1"
 			(pin passive line
-				(at -5.08 0 0)
+				(at -2.54 0 0)
 				(length 2.54)
-				(name "1"
+				(name "~"
 					(effects
 						(font
 							(size 1.016 1.016)
