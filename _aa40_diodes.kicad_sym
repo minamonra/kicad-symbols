@@ -3632,7 +3632,7 @@
 			)
 		)
 		(property "Description" "Диод Шоттки общий катод"
-			(at -1.27 0 0)
+			(at 2.54 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,30 +3671,8 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.54 0)
-				(radius 0.1295)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "MBR30200_1_1"
-			(rectangle
-				(start -3.81 4.445)
-				(end 3.81 -4.445)
-				(stroke
-					(width 0)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 3.81) (xy -2.54 1.27)
@@ -3858,6 +3836,17 @@
 				(stroke
 					(width 0)
 					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 0)
+				(radius 0.1295)
+				(stroke
+					(width 0.508)
+					(type solid)
 				)
 				(fill
 					(type none)

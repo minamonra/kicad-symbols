@@ -8779,7 +8779,7 @@
 			)
 		)
 		(property "Value" "Transformer_ETD44_HB06"
-			(at 0 -0.254 0)
+			(at 0 -4.318 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -8806,7 +8806,7 @@
 			)
 		)
 		(property "Description" "Трансформатор"
-			(at 0 0 0)
+			(at 0 -4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,6 +9294,7 @@
 			(pin passive line
 				(at 5.08 1.27 180)
 				(length 2.54)
+				(hide yes)
 				(name "~"
 					(effects
 						(font
@@ -9301,7 +9302,63 @@
 						)
 					)
 				)
-				(number "6"
+				(number "16"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 1.27 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -8.89 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9319,7 +9376,64 @@
 						)
 					)
 				)
-				(number "5"
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -8.89 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -19.05 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -19.05 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -9337,7 +9451,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
