@@ -9358,62 +9358,6 @@
 						)
 					)
 				)
-				(number "13"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -8.89 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -8.89 180)
-				(length 2.54)
-				(hide yes)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 -19.05 180)
-				(length 2.54)
-				(hide yes)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
 				(number "10"
 					(effects
 						(font
@@ -9423,7 +9367,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -19.05 180)
+				(at 5.08 -8.89 180)
 				(length 2.54)
 				(hide yes)
 				(name "~"
@@ -9442,7 +9386,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -19.05 180)
+				(at 5.08 -8.89 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -9452,6 +9396,62 @@
 					)
 				)
 				(number "12"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -19.05 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -19.05 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -19.05 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "15"
 					(effects
 						(font
 							(size 1.016 1.016)
