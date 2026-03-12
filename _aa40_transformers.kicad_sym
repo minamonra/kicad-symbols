@@ -11214,7 +11214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ferrite.ru/upload/docs/pdf/products/pq/pq_26_25-2017.pdf"
 			(at -12.065 29.845 0)
 			(effects
 				(font
@@ -11686,7 +11686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ferrite.ru/upload/docs/pdf/products/pq/pq_26_25-2017.pdf"
 			(at -12.065 29.845 0)
 			(effects
 				(font
