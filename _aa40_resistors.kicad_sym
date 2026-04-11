@@ -840,7 +840,7 @@
 				)
 			)
 		)
-		(property "Value" "R_RES_0.125W"
+		(property "Value" "1k"
 			(at 0 -2.54 0)
 			(effects
 				(font
