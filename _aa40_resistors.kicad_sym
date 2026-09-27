@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "RP_POTENT"
 		(pin_names
 			(offset 0.002)
@@ -10,8 +10,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "RP"
 			(at -10.16 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -21,6 +25,8 @@
 		)
 		(property "Value" "RP_POTENT"
 			(at -10.16 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -30,29 +36,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Потенциометр"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RP_POTENT_1_1"
@@ -94,7 +106,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -112,7 +124,7 @@
 			(pin passive line
 				(at 0 5.08 270)
 				(length 3.81)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -130,7 +142,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -156,8 +168,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "RP"
 			(at -10.16 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -167,6 +183,8 @@
 		)
 		(property "Value" "RP_TRIMMER"
 			(at -10.16 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -176,29 +194,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор подстроечный"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RP_TRIMMER_1_1"
@@ -228,7 +252,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -246,7 +270,7 @@
 			(pin passive line
 				(at 2.54 2.54 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -264,7 +288,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -290,8 +314,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "RP"
 			(at 0.635 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -301,6 +329,8 @@
 		)
 		(property "Value" "RP_TRIMMER"
 			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -310,29 +340,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор подстроечный"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RP_TRIMMERL_1_1"
@@ -362,7 +398,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -380,7 +416,7 @@
 			(pin passive line
 				(at -2.54 2.54 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -398,7 +434,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -424,8 +460,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "RP"
 			(at 0.635 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -435,6 +475,8 @@
 		)
 		(property "Value" "RP_TRIMMER"
 			(at 0.635 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -444,29 +486,49 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор подстроечный"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+			)
+		)
+		(symbol "RP_TRIMMERX_0_1"
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
 			)
 		)
 		(symbol "RP_TRIMMERX_1_1"
@@ -481,29 +543,17 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 1.016) (xy 0 3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin passive line
-				(at -5.08 0 0)
+				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -512,9 +562,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "~"
+				(at 0 2.54 270)
+				(length 1.27)
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -530,16 +580,16 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -561,8 +611,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -571,6 +625,8 @@
 		)
 		(property "Value" "R_RES"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -579,38 +635,46 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "resistor резистор r res 0,25"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_0_1"
@@ -630,7 +694,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -648,7 +712,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -677,8 +741,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -687,6 +755,8 @@
 		)
 		(property "Value" "R_RES_0.05W"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -695,29 +765,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 0.05 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_0.05W_1_0"
@@ -785,7 +861,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -803,7 +879,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -832,8 +908,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -842,6 +922,8 @@
 		)
 		(property "Value" "1k"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -850,29 +932,35 @@
 		)
 		(property "Footprint" ""
 			(at -3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 0.125 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_0.125W_1_0"
@@ -928,7 +1016,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -946,7 +1034,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -975,8 +1063,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -985,6 +1077,8 @@
 		)
 		(property "Value" "R_RES_0.25W"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -993,38 +1087,46 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 0,25 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "resistor резистор r res 0,25"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_0.25_1_0"
@@ -1056,7 +1158,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1074,7 +1176,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1103,8 +1205,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1113,6 +1219,8 @@
 		)
 		(property "Value" "R_RES_0.5W"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1121,29 +1229,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 0.5 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_0.5W_1_0"
@@ -1187,7 +1301,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 0.9398 0.9398)
@@ -1205,7 +1319,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 0.9398 0.9398)
@@ -1234,8 +1348,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1244,38 +1362,46 @@
 		)
 		(property "Value" "0"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at -3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 0.125 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_000_1_0"
@@ -1315,7 +1441,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1333,7 +1459,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1362,8 +1488,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1372,6 +1502,8 @@
 		)
 		(property "Value" "R_RES_1.0W"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1380,29 +1512,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 1.0 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_1.0W_1_0"
@@ -1434,7 +1572,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1452,7 +1590,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1481,8 +1619,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1491,6 +1633,8 @@
 		)
 		(property "Value" "R_RES_10.0W"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1499,29 +1643,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 10.0 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_10.0W_1_0"
@@ -1565,7 +1715,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1583,7 +1733,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1612,8 +1762,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1622,6 +1776,8 @@
 		)
 		(property "Value" "R_RES_2.0W"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1630,38 +1786,46 @@
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal"
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://eandc.ru/pdf/rezistor/s2-33n.pdf"
 			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 2.0 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "С2-33Н-2"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_2.0W_1_0"
@@ -1705,7 +1869,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1723,7 +1887,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1752,8 +1916,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1762,6 +1930,8 @@
 		)
 		(property "Value" "R_RES_5.0W"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1770,29 +1940,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор 5.0 Ватт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_5.0W_1_0"
@@ -1836,7 +2012,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1854,7 +2030,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1879,8 +2055,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at -0.254 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1889,6 +2069,8 @@
 		)
 		(property "Value" "R_RES_ASSEMBLY_U100"
 			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1897,38 +2079,46 @@
 		)
 		(property "Footprint" ""
 			(at -15.24 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -15.24 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор"
 			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "resistor резистор r res 0,25"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_RES_ASSEMBLY_U100_0_1"
@@ -2499,7 +2689,7 @@
 			(pin passive line
 				(at -17.78 7.62 270)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2515,27 +2705,9 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -7.62 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 13.97 3.81 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2551,9 +2723,27 @@
 				)
 			)
 			(pin passive line
+				(at -17.78 -7.62 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 13.97 -3.81 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2581,8 +2771,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2591,6 +2785,8 @@
 		)
 		(property "Value" "R_SHUNT"
 			(at 0 -3.048 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,47 +2795,57 @@
 		)
 		(property "Footprint" ""
 			(at 0 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Shunt resistor"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "R res shunt resistor"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "R_*Shunt*"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_SHUNT_1_1"
@@ -2753,8 +2959,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2763,6 +2973,8 @@
 		)
 		(property "Value" "10k"
 			(at 0 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2772,38 +2984,46 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "resistor резистор r res 0,25"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_TERM_0_1"
@@ -2856,7 +3076,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2874,7 +3094,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2903,8 +3123,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2913,48 +3137,58 @@
 		)
 		(property "Value" "t°"
 			(at 0 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.524 1.524)
 					(italic yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "resistor резистор r res 0,25"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_TERM1_0_1"
@@ -2998,7 +3232,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3016,7 +3250,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3045,8 +3279,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 3.175 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3056,6 +3294,8 @@
 		)
 		(property "Value" "10k"
 			(at 3.175 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3066,38 +3306,46 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "resistor резистор r res 0,25"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_TERM2_0_1"
@@ -3148,16 +3396,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 5.08 270)
+				(at 0 -5.08 90)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3166,16 +3414,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
+				(at 0 5.08 270)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3197,8 +3445,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VR"
 			(at 3.175 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3206,8 +3458,10 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" ""
 			(at 3.175 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3218,38 +3472,46 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_keywords" "resistor резистор r res 0,25"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "R_VAR1_0_1"
@@ -3300,16 +3562,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 5.08 270)
+				(at 0 -5.08 90)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3318,16 +3580,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
+				(at 0 5.08 270)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3346,8 +3608,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "RP"
 			(at -10.16 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3357,6 +3623,8 @@
 		)
 		(property "Value" "СП5-2В"
 			(at -10.16 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3366,29 +3634,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://eandc.ru/pdf/rezistor/sp5-2_sp5-3.pdf"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.778 1.778)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Резистор подстроечный проволочный 1 Вт"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "СП5-2В_1_1"
@@ -3418,7 +3692,7 @@
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3436,7 +3710,7 @@
 			(pin passive line
 				(at 2.54 2.54 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3454,7 +3728,7 @@
 			(pin passive line
 				(at 5.08 0 180)
 				(length 2.54)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 1.016 1.016)
